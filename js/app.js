@@ -1,6 +1,4 @@
 console.log("------------ Ejercicio A ------------");
-//😺 😸 😹 🐈 🐾 ⬛
-
 
 for (var cantidadDeGatos = 1; cantidadDeGatos <= 10; cantidadDeGatos++) {
     if (cantidadDeGatos % 3 === 1) {
@@ -12,7 +10,9 @@ for (var cantidadDeGatos = 1; cantidadDeGatos <= 10; cantidadDeGatos++) {
     }
 }
 
+
 console.log("------------ Ejercicio B ------------")
+
 var cantidadDeGatosB = 6;
 var cantidadDePasos = 4;
 
@@ -23,6 +23,18 @@ for (var i = 1; i <= cantidadDeGatosB; i++) {
 }
 
 
+console.log("------------ Ejercicio C ------------")
 
+var cantidadDeGatosC = 10;
+var cantidadDePasosC = 4;
+
+for (var i = 1; i <= cantidadDeGatosC; i++) {
+    var gatoEmoji = (i % 2 === 0) ? "🐈⬛" : "🐈 ";
+    var pasosC = "";
+    for (var p = 0; p < cantidadDePasosC; p++) {
+      pasosC += "🐾";
+    }
+    console.log("Gato #" + i + ": " + gatoEmoji + pasosC);
+  }
 
 
